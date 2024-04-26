@@ -1,0 +1,20 @@
+.contextMenuWrapper{
+    h3{
+        text-align: center;
+        margin-top: 1px;
+    }
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    justify-content: space-between;
+    height: 150px;
+    border: 1px solid black;
+    div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    button{
+        cursor: pointer;
+    }
+}
